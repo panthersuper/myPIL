@@ -18,3 +18,4 @@ gr_im = original.convert('LA').convert('RGB')
 
 print greeness(rgb_im, 150)
 print whiteness(rgb_im, 255)
+print likeness_img(rgb_im, (0,0,0), 0.8)
